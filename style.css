@@ -110,7 +110,7 @@ img {
 }
 
 .left-container {
-  background-color: black;
+  background-color: #272e4f;
   height: 100%;
   width: 30%;
   color: white;
@@ -915,6 +915,7 @@ li {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   opacity: 0;
+  cursor: default;
 }
 
 .portfolio .portfolio-item .portfolio-info:hover{
