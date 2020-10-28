@@ -133,7 +133,7 @@ img {
   height: 50vh;
   border: 10px solid #ffffff;
   width: 30vw;
-  background-image: url("https://images.unsplash.com/photo-1551522355-dbf80597eba8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  /* background-image: url("https://images.unsplash.com/photo-1551522355-dbf80597eba8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); */
   background-size: cover;
   -webkit-box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.5);

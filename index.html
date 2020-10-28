@@ -386,7 +386,7 @@
                   <p>Javascript / Wordpress</p>
                 </div>
                 <div class="icon">
-                  <a class="button" href="./projects/travel2.html" target="_blank">Learn More</a>
+                  <a class="button" href="./projects/traveloop.html" target="_blank">Learn More</a>
                 </div>
               </div>
             </div>
@@ -580,8 +580,9 @@
   
             <!-- Contact Form -->
             <div class="row ">
-              <form class="contact-form padd-15" name="contact" method="POST" data-netlify="true">
-                <input type="hidden" name="form-name" netlify-honeypot="bot-field" value="contact">
+              <form class="contact-form padd-15" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+
+                <input type="hidden" name="form-name" value="contact">
                 <p class="hidden">
                   <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
@@ -589,32 +590,32 @@
                 <div class="row for-sm-screen very-sm-scr">
                   <div class="form-item col-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Name*">
+                      <input type="text" class="form-control" name="name" placeholder="Name*">
                     </div>
                   </div>
                   <div class="form-item col-6" style="padding-left: 3px;">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Email*">
+                      <input type="text" class="form-control" name="email" placeholder="Email*">
                     </div>
                   </div>
                 </div>
                 <div class="row for-sm-screen very-sm-scr">
                   <div class="form-item col-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Subject*">
+                      <input type="text" class="form-control" name="subject" placeholder="Subject*">
                     </div>
                   </div>
                 </div>
                 <div class="row for-sm-screen very-sm-scr">
                   <div class="form-item col-12">
                     <div class="form-group">
-                      <textarea class="form-control" placeholder="Your Message..."></textarea>
+                      <textarea class="form-control" name="message" placeholder="Your Message..."></textarea>
                     </div>
                   </div>
                 </div>
                 <div class="row for-sm-screen very-sm-scr">
                   <div class="form-item col-12">
-                    <button type="submit" class="btn">Submit</button>
+                    <button type="submit" value="send" class="btn">Submit</button>
                   </div>
                 </div>
               </form>
