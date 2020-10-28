@@ -106,7 +106,7 @@
 					<div class="portfolio-desc">
 						<h3 class="widget-title">About the Project:</h3>
               <p>
-                Treavel Recommendation system, with the help of Machine Learning model will recommend tourist attractions, the system will be more personalized for the users. We collect the data by Scarping and extracting from online sources using Selenium in python. 
+                Travel Recommendation system, with the help of Machine Learning model will recommend tourist attractions, the system will be more personalized for the users. We collect the data by Scarping and extracting from online sources using Selenium in python. 
                 Next by Practicing data pre-processing using LDA(Linear Discriminant Analysis) and data Modeling with KNN Algorithm. <br>
                 During development of the project we were able to practice Agile method for the development of the software. And practicing manual and automate test using Selenium.
                 </p>
@@ -152,44 +152,52 @@
                   <div class="contact-info-item padd-15">
                     <div class="icon"><i class="fa fa-at"></i></div>
                     <h4>Email</h4>
-                    <p>azizullahyaqooby@gmail.com</p>
+                    <a href="mailto:azizullahyaqooby@gmail.com">azizullahyaqooby@gmail.com</a>
                   </div>
-              </div>
-
-              <div class="row">
-                <form action="submit" class="contact-form padd-15">
-                  <div class="row">
-                    <div class="form-item col-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Name*">
+                  <!-- Contact info Item End-->
+                </div>
+      
+                <!-- Contact Form -->
+                <div class="row ">
+                  <form class="contact-form padd-15" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+    
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
+    
+                    <div class="row for-sm-screen very-sm-scr">
+                      <div class="form-item col-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="name" placeholder="Name*">
+                        </div>
+                      </div>
+                      <div class="form-item col-6" style="padding-left: 3px;">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="email" placeholder="Email*">
+                        </div>
                       </div>
                     </div>
-                    <div class="form-item col-6" style="padding-left: 3px;">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email*">
+                    <div class="row for-sm-screen very-sm-scr">
+                      <div class="form-item col-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" placeholder="Subject*">
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-item col-12">
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Subject*">
+                    <div class="row for-sm-screen very-sm-scr">
+                      <div class="form-item col-12">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" placeholder="Your Message..."></textarea>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-item col-12">
-                      <div class="form-group">
-                        <textarea class="form-control" placeholder="Your Message..."></textarea>
+                    <div class="row for-sm-screen very-sm-scr">
+                      <div class="form-item col-12">
+                        <button type="submit" value="send" class="btn">Submit</button>
                       </div>
                     </div>
-                  </div>
-                  <div class="row">
-                    <div class="form-item col-12">
-                      <button type="submit" class="btn">Submit</button>
-                    </div>
-                  </div>
-                </form>
+                  </form>
               </div>
 
             </div>
@@ -215,7 +223,7 @@
           <!-- <li><i class="fa fa-pied-piper" aria-hidden="true"></i> -->
         </li>
       </ul>
-        <p>&copy; 2020 Azizullah</p>
+      <p>Azizullah &copy; 2020 </p>
     </footer>
 
 

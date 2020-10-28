@@ -1326,6 +1326,7 @@ button:focus {
 
 
 /*Start contact*/
+
 .contact {
   background: #252934;
   background-size: cover;  
@@ -1393,6 +1394,10 @@ button:focus {
   color: #504e70;
   margin: 0;
   font-weight: 400;
+}
+
+.contact-info-item a{
+  font-size: 18px;
 }
 
 .contact .contact-form {
@@ -1600,246 +1605,7 @@ opacity: 1;
 }
 /*End animations*/
 
-/*Start media queries*/
-@media (max-width: 1024px){
-  .story{
-    position: initial;
-    padding: 15rem 0 0 40px;
-  }
 
-  .logo{
-    padding: 2rem;
-  }
-
-  .containers .text-2 h1{
-    font-size: 5rem !important;
-  }
-
-  .containers .text-3 h2{
-    font-size: 2rem;
-  }
-
-  .containers .text-3 h2 span{
-    font-size: 2rem !important;
-  }
-
-  .center-container{
-    top: 55vh;
-    left: 20vw;
-    width: 400px !important;
-    height: 300px;
-  }
-
-  .profile-pic{
-    text-align: center;
-    width: 100%;
-  }
-
-  .row2{
-    align-content: center;
-    flex-wrap: wrap;
-  }
-
-  .row{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .about .about-content .education{
-    width: 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .about .about-content .experience{
-    width: 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .about .about-content .timeline{
-    height: 1080px;
-  }
-
-  .about .about-content .timeline-education{
-    height: 700px;
-  }
-}
-
-@media (max-width: 767px){
-
-  .top-nav {
-    height: 100vh;
-  }
-
-  .nav-list {
-    flex-direction: column;
-  }
-
-  li {
-    margin: 2rem 0;
-  }
-
-  .center-container{
-    left: 20vw;
-  }
-
-  .row2{
-    align-content: center;
-    flex-wrap: wrap;
-  }
-
-  .row{
-    margin-left: -2px;
-  }
-
-  .section-heading{
-    margin: 5rem 0 5rem 0;
-  }
-
-  .about-text2 h1{
-    padding: 90px 0 0 0;
-  }
-
-  .portfolio .portfolio-item{
-    flex: 0 0 40%;
-    max-width: 60%;
-  }
-
-  .blog .blog-item{
-    max-width: 60%;
-  }
-
-  .for-sm-screen{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .contact-info-item p{
-    font-size: 15px;
-  }
-
-}
-
-@media (max-width: 575px){
-  .left-container{
-    display: none;
-  }
-
-  .story {
-    position: initial;
-    padding: 15rem 0 0 70px;
-  }
-
-  .center-container{
-    top: 55vh;
-    left: 20vw;
-    width: 300px !important;
-    height: 200px;
-  }
-
-  .about-image{
-    width: 300px;
-    height: 300px;
-  }
-
-  .about .about-content .about-text p{
-    padding: 0 30px;
-    text-align: left;
-  }
-
-  .portfolio .portfolio-item{
-    padding-bottom: 8px;
-  }
-
-  .row2{
-    margin-bottom: 0;
-  }
-
-  .center-container{
-    display: none;
-  }
-
-  .for-sm-screen-btn{
-    flex-direction: row;
-  }
-
-  .for-sm-screen-btn .about-btn{
-    padding: 0;
-  }
-
-  .for-sm-screen-btn .about-btn .hire-me{
-    margin: 0 0 0 5px;
-  }
-
-  .about-btn .btn{
-    padding: 10px 20px;
-  }
-
-  .cv-down{
-    margin: 0 0 0 0;
-  }
-
-  
-  .about .about-content .timeline{
-    height: 1400px;
-    padding: 10px;
-  }
-
-  .about .about-content .timeline-education {
-    height: 780px;
-  }
-
-  .portfolio .portfolio-item{
-    max-width: 80%;
-  }
-
-  .blog .blog-item {
-    max-width: 80%;
-  }
-
-  .for-sm-screen{
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-  }
-
-  .very-sm-scr{
-    flex-direction: row;
-  }
-
-  .padd-15{
-    padding: 0;
-  }
-  
-  .nav-menu{
-    width: 100%;
-  }
-
-  .menu-toggler{
-    right: 1rem;
-  }
-
-  .skills-icon{
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .copyright p{
-    padding-top: 0;
-  }
-
-  .contact .contact-info-item{
-    max-width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-/*End media queries*/
 
 /* Project Pages */
 #banner-area {
@@ -2071,3 +1837,263 @@ opacity: 1;
 .left-container2{
   z-index: 10000;
 }
+
+/*Start media queries*/
+@media (max-width: 1024px){
+  .story{
+    position: initial;
+    padding: 15rem 0 0 40px;
+  }
+
+  .logo{
+    padding: 2rem;
+  }
+
+  .containers .text-2 h1{
+    font-size: 5rem !important;
+  }
+
+  .containers .text-3 h2{
+    font-size: 2rem;
+  }
+
+  .containers .text-3 h2 span{
+    font-size: 2rem !important;
+  }
+
+  .center-container{
+    top: 55vh;
+    left: 20vw;
+    width: 400px !important;
+    height: 300px;
+  }
+
+  .profile-pic{
+    text-align: center;
+    width: 100%;
+  }
+
+  .row2{
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .about .about-content .education{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about .about-content .experience{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about .about-content .timeline{
+    height: 1080px;
+  }
+
+  .about .about-content .timeline-education{
+    height: 700px;
+  }
+}
+
+@media (max-width: 767px){
+
+  .top-nav {
+    height: 100vh;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 2rem 0;
+  }
+
+  .center-container{
+    left: 20vw;
+  }
+
+  .row2{
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row{
+    margin-left: -2px;
+  }
+
+  .section-heading{
+    margin: 5rem 0 5rem 0;
+  }
+
+  .about-text2 h1{
+    padding: 90px 0 0 0;
+  }
+
+  .portfolio .portfolio-item{
+    flex: 0 0 40%;
+    max-width: 60%;
+  }
+
+  .blog .blog-item{
+    max-width: 60%;
+  }
+
+  .for-sm-screen{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-info-item p{
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 575px){
+  .left-container{
+    display: none;
+  }
+
+  .logo2{
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  .sidebar{
+    margin: 0;
+  }
+
+  .wrapper{
+    width: 300px;
+    height: 300px;
+  }
+
+  .image-slider{
+    min-height: 0;
+  }
+
+  .story {
+    position: initial;
+    padding: 15rem 0 0 70px;
+  }
+
+  .center-container{
+    top: 55vh;
+    left: 20vw;
+    width: 300px !important;
+    height: 200px;
+  }
+
+  .about-image{
+    width: 300px;
+    height: 300px;
+  }
+
+  .about .about-content .about-text p{
+    padding: 0 30px;
+    text-align: left;
+  }
+
+  .portfolio .portfolio-item{
+    padding-bottom: 8px;
+  }
+
+  .row2{
+    margin-bottom: 0;
+  }
+
+  .center-container{
+    display: none;
+  }
+
+  .for-sm-screen-btn{
+    flex-direction: row;
+  }
+
+  .for-sm-screen-btn .about-btn{
+    padding: 0;
+  }
+
+  .for-sm-screen-btn .about-btn .hire-me{
+    margin: 0 0 0 5px;
+  }
+
+  .about-btn .btn{
+    padding: 10px 20px;
+  }
+
+  .cv-down{
+    margin: 0 0 0 0;
+  }
+
+  
+  .about .about-content .timeline{
+    height: 1400px;
+    padding: 10px;
+  }
+
+  .about .about-content .timeline-education {
+    height: 780px;
+  }
+
+  .portfolio .portfolio-item{
+    max-width: 80%;
+  }
+
+  .blog .blog-item {
+    max-width: 80%;
+  }
+
+  .for-sm-screen{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .very-sm-scr{
+    flex-direction: row;
+  }
+
+  .padd-15{
+    padding: 0;
+  }
+  
+  .nav-menu{
+    width: 100%;
+  }
+
+  .menu-toggler{
+    right: 1rem;
+  }
+
+  .skills-icon{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .copyright p{
+    padding-top: 0;
+  }
+
+  .contact .contact-info-item{
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/*End media queries*/
+
