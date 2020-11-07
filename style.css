@@ -370,7 +370,7 @@ li {
   background: #66fcf1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: "Cutive Mono", monospace;
+  /* font-family: "Cutive Mono", monospace; */
   font-size: 4rem;
   border: none;
   font-style: bold;
