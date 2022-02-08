@@ -39,7 +39,7 @@ $(document).ready(function () {
 });
 
 var typed = new Typed('.typing', {
-    strings: ['Front-end Developer.', 'Designer.', 'Freelancer.'],
+    strings: ['Software Developer', 'UI/UX Designer.', 'Freelancer.'],
     typeSpeed: 120,
     cursorChar: '_',
     backSpeed: 60,
